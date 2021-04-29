@@ -1,6 +1,6 @@
 from cv2 import cv2
 
-imgPath = "C:/Users/franc/Downloads/Curso Python - De 0 hasta reconocimiento facial/Seccion 7/contorno.jpg"
+imgPath = "Seccion 7/contorno.jpg"
 
 img = cv2.imread(imgPath)
 grises = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

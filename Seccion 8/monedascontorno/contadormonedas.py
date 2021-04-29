@@ -1,6 +1,6 @@
 from cv2 import cv2
 import numpy as np
-imgPath = "C:/Users/franc/Downloads/Curso Python - De 0 hasta reconocimiento facial/Seccion 8/monedascontorno/monedassoles.jpg"
+imgPath = "Seccion 8/monedascontorno/monedassoles.jpg"
 valorGauss = 1
 valorKernel = 33
 original = cv2.imread(imgPath)
